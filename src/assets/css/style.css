@@ -1,0 +1,86 @@
+@import url("null.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("rating.css");
+@import url("search.css");
+@import url("hebergements.css");
+@import url("activites.css");
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+/*VARIABLES============================================*/
+:root {
+  --minWidth: 320px;
+  --maxWidth: 1440px;
+  --maxWidthContainer: 1340px;
+  --md1: 1352px;
+  --md2: 991.98px;
+  --md3: 767.98px;
+  --md4: 479.98px;
+
+  --mainColor: #000;
+  --darkColor: #0065FC;
+  --lightColor: #DEEBFF;
+  --greyColor: #F2F2F2;
+
+	--fontSize: 16px;
+	--fontSizeTitle: 18px;
+	--fontSizeSubtitle: 14px;
+}
+/*VARIABLES============================================*/
+
+/*PAGE SETTINGS========================================*/
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Raleway';
+	font-weight: 200;
+}
+._container {
+	max-width: var(--maxWidthContainer);
+	margin: 0 2px 0 92px;
+}
+@media (max-width: 992px) {
+	._container {
+		margin: 0 auto 0 32px;
+	}
+}
+@media (max-width: 768px) {
+	._container {
+		margin: 0 20px 0 18px;
+	}
+}
+.page {
+	flex: 1 1 auto;
+}
+/*PAGE SETTINGS=======================================*/
+
+/*COMMON==============================================*/
+.button {
+	display: inline-flex;
+	padding: 0px 0px;
+}
+.input {
+	border-radius: 0 !important;
+	width: 100%;
+	display: block;
+	padding: 0px 20px;
+}
+textarea.input {
+	resize: none;
+	padding: 0px 0px;
+}
+._link {
+	color: var(--mainColor);
+	transition: color 0.3s ease 0s;
+}
+._link:hover {
+	color: var(--darkColor);
+	cursor: pointer;
+}
+/*COMMON==============================================*/

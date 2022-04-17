@@ -1,0 +1,98 @@
+.activites__container {
+  max-width: var(--maxWidthContainer);
+  display: flex;
+  flex-direction: column;
+  padding: 55px 0 70px 0;
+}
+.activites__title {
+  font-size: var(--fontSizeTitle);
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.activites__item-title {
+  font-weight: 800;
+  padding: 20px 0 20px 18px;
+}
+.activites__list {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-height: 492px;
+  flex-wrap: wrap;
+  gap: 42px;
+}
+.activites__list>* {
+  flex: 1 1 25%;
+}
+.activites__item {
+  max-height: 445px;
+  max-width: 302px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--greyColor);
+  box-shadow: 0px 0px 15px var(--greyColor);
+  border-radius: 20px;
+}
+._item__medium {
+  max-height: 445px;
+}
+._item__small {
+  max-height: 206px;
+}
+._image__medium {
+  height: 389px;
+  max-width: 302px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+._image__small {
+  max-height: 180px;
+  max-width: 302px;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1352px) {
+  .activites__list {
+    column-gap: 20px;
+    max-height: 800px;
+  }
+  .activites__list>* {
+    flex: 1 1 33%;
+  }
+  ._item__small {
+    max-height: 246px;
+  }
+}
+@media (max-width: 992px) {
+  .activites__container {
+    padding: 45px 0 45px 0;
+  }
+  .activites__list {
+    max-height: 1040px;
+  }
+  .activites__list>* {
+    flex: 1 1 50%;
+  }
+}
+@media (max-width: 768px) {
+  .activites__list {
+    max-height: 2000px;
+    gap: 20px;
+  }
+  .activites__list>* {
+    flex: 1 1 100%;
+  }
+  ._image__medium {
+    height: 190px;
+  }
+  ._image__small {
+    height: 190px;
+  }
+}
