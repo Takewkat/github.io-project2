@@ -9,7 +9,15 @@
 @font-face {
 	font-family: 'Raleway';
 	src: url('../fonts/Raleway-Regular.ttf') format('truetype');
-}
+	font-weight: normal;
+  font-style: normal;
+}	
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+	font-weight: bold;
+  font-style: normal;
+}	
 /*VARIABLES============================================*/
 :root {
   --minWidth: 320px;
@@ -24,10 +32,14 @@
   --darkColor: #0065FC;
   --lightColor: #DEEBFF;
   --greyColor: #F2F2F2;
+	--whiteColor: #FFFFFF;
+	--shadowColor: #d6d2d2;
 
 	--fontSize: 16px;
-	--fontSizeTitle: 18px;
-	--fontSizeSubtitle: 14px;
+	--fontSizeTitle: 21px;
+	--fontSizeSubTitle: 18px;
+	--fontSizeSmallTitle: 15px;
+	--fontSizeSmall: 14px;
 }
 /*VARIABLES============================================*/
 
@@ -71,6 +83,10 @@
 	display: block;
 	padding: 0px 20px;
 }
+input::placeholder {
+	color: var(--mainColor);
+	opacity: 1;
+}
 textarea.input {
 	resize: none;
 	padding: 0px 0px;
@@ -83,4 +99,12 @@ textarea.input {
 	color: var(--darkColor);
 	cursor: pointer;
 }
+
 /*COMMON==============================================*/
+._title {
+	font-size: var(--fontSizeTitle);
+	font-weight: 600;
+}
+._svg {
+	height: 18px;
+}

@@ -1,0 +1,16 @@
+.rating {
+	height: 12px;
+}
+.rating__item {
+  width: 12px;
+  height: 12px;
+}
+.rating__item__active {
+  width: 12px;
+  height: 12px;
+}
+.rating__item__active:hover,
+.rating__item:hover {
+	height: 13px;
+  transition: color 0.3s ease 0s;
+}
