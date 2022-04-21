@@ -20,20 +20,14 @@
 }	
 /*VARIABLES============================================*/
 :root {
-  --minWidth: 320px;
-  --maxWidth: 1440px;
   --maxWidthContainer: 1340px;
-  --md1: 1352px;
-  --md2: 991.98px;
-  --md3: 767.98px;
-  --md4: 479.98px;
 
   --mainColor: #000;
   --darkColor: #0065FC;
   --lightColor: #DEEBFF;
   --greyColor: #F2F2F2;
 	--whiteColor: #FFFFFF;
-	--shadowColor: #d6d2d2;
+	--shadowColor: #a4a3a3;
 
 	--fontSize: 16px;
 	--fontSizeTitle: 21px;
@@ -73,6 +67,9 @@
 /*PAGE SETTINGS=======================================*/
 
 /*COMMON==============================================*/
+img:hover {
+  opacity: 0.5;
+}
 .button {
 	display: inline-flex;
 	padding: 0px 0px;
@@ -86,6 +83,9 @@
 input::placeholder {
 	color: var(--mainColor);
 	opacity: 1;
+}
+input:focus::placeholder {
+  color: transparent;
 }
 textarea.input {
 	resize: none;

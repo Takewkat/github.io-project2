@@ -5,6 +5,9 @@
   padding: 0;
   min-height: 290px;
 }
+.search_title {
+  margin: 0 0 12px 0;
+}
 .search__input {
   display: flex;
   font-size: var(--fontSizeSmallTitle);
@@ -15,12 +18,23 @@
   border: 1px solid var(--greyColor);
   border-radius: 20px;
 }
+.search__input-text {
+  font-size: var(--fontSizeSmallTitle);
+}
 .search__button {
   background-color: var(--darkColor);
   color: var(--whiteColor);
   cursor: pointer;
   border-radius: 0 20px 20px 0;
   width: 134px;
+}
+.search__button:hover {
+  color: var(--mainColor);
+  background-color: rgb(134, 134, 186);
+  transition: color 0.3s ease 0s;
+}
+.search__text {
+  font-size: var(--fontSizeSmallTitle);
 }
 .map__svg__container {
   display: flex;
@@ -31,15 +45,84 @@
   background-color: var(--greyColor);
   border-radius: 20px 0 0 20px;
 }
+.map__svg__container:hover {
+  background-color: var(--lightColor);
+  cursor: pointer;
+}
 .search__svg {
   display: none;
 }
-
+/*------------------------------------*/
+.filtres__container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 25px;
+  row-gap: 15px;
+  font-weight: bold;
+}
+.filtres__button {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  border: 1px solid var(--greyColor);
+  border-radius: 50px;
+}
+.filtres__button:hover {
+	color: var(--darkColor);
+  background-color: var(--greyColor);
+	cursor: pointer;
+}
+.filtres__button:active {
+	color: var(--darkColor);
+}
+.filtres__svg__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: var(--lightColor);
+  border-radius: 50px;
+}
+.filtres__text {
+  margin: 12px;
+  font-size: var(--fontSizeSmallTitle);
+}
+/*------------------------------------*/
+.info__svg {
+  height: 12px;
+}
+.info__svg__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 23px;
+  width: 23px;
+  border-radius: 50px;
+  border: 1px solid var(--greyColor);
+}
+.info__svg__container:hover {
+  background-color: var(--greyColor);
+  cursor: pointer;
+}
+.info__container {
+  display: flex;
+  column-gap: 13px;
+  margin-top: 38px;
+}
+.info__text {
+  word-break: break-all;
+}
 /*------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
+  .search__container {
+    padding-top: 38px;
+  }
   .search__svg {
     display: block;
   }
@@ -54,5 +137,9 @@
     align-items: center;
     width: 50px;
     height: 50px;
+  }
+  .filtres__title {
+    flex: 1 1 auto;
+    margin-right: 80%;
   }
 }

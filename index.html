@@ -16,13 +16,13 @@
 			<header class="header">
 				<div class="header__container _container">
 					<nav class="header__content">						
-						<ul class="menu-list">
+						<ul id="header-scroll" class="menu-list">
 							<a href="#" class="header__logo">
 								<img src="./assets/img/logo/Booki.png" alt="Booki">
 							</a>
 							<div class="menu-link__container">
-								<li><a href="#hebergements" class="menu__link _link">Hébergements</a></li>
-								<li><a href="#activites" class="menu__link _link">Activités</a></li>
+								<a href="#hebergements" class="menu__link _link">Hébergements</a>
+								<a href="#activites" class="menu__link _link">Activités</a>
 							</div>	
 						</ul>
 					</nav>
@@ -45,7 +45,40 @@
 									<img class="search__svg _svg"src="./assets/icons/search.svg" alt="search">	
 								</span>
 							</button>
-					</div>						
+						</div>
+						<div class="filtres__container">
+							<h4 class="filtres__title">Filtres</h4>
+							<button class="filtres__button" type="submit">
+								<span class="filtres__svg__container">
+									<img class="filtres__svg _svg" src="./assets/icons/money-bill-wave.svg" alt="money">	
+								</span>
+								<span class="filtres__text">Économique</span>
+							</button>
+							<button class="filtres__button" type="submit">
+								<span class="filtres__svg__container">
+									<img class="filtres__svg _svg" src="./assets/icons/child.svg" alt="family">	
+								</span>
+								<span class="filtres__text">Familial</span>
+							</button>
+							<button class="filtres__button" type="submit">
+								<span class="filtres__svg__container">
+									<img class="filtres__svg _svg" src="./assets/icons/heart.svg" alt="heart">	
+								</span>
+								<span class="filtres__text">Romantique</span>
+							</button>
+							<button class="filtres__button" type="submit">
+								<span class="filtres__svg__container">
+									<img class="filtres__svg _svg" src="./assets/icons/dog.svg" alt="pets">	
+								</span>
+								<span class="filtres__text">Animaux autorisés</span>
+							</button>
+						</div>
+						<div class="info__container">
+							<div class="info__svg__container">
+								<img src="./assets/icons/info.svg" alt="i" class="info__svg">							
+							</div>
+							<p class="info__text">Plus de 500 logements sont disponibles dans cette ville</p>
+						</div>						
 					</div>
 				</section>
 				<!------------------------------------------------------------------------------------------------------------------>
