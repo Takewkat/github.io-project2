@@ -106,6 +106,8 @@
 .info__svg__container:hover {
   background-color: var(--greyColor);
   cursor: pointer;
+  max-height: 100%;
+  max-width: 100%;
 }
 .info__container {
   display: flex;

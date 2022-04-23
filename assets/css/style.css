@@ -49,16 +49,16 @@
 }
 ._container {
 	max-width: var(--maxWidthContainer);
-	margin: 0 2px 0 92px;
+	margin: 0 50px;
 }
 @media (max-width: 992px) {
 	._container {
-		margin: 0 auto 0 32px;
+		margin: 0 30px;
 	}
 }
 @media (max-width: 768px) {
 	._container {
-		margin: 0 20px 0 18px;
+		margin: 0 20px;
 	}
 }
 .page {
@@ -67,6 +67,10 @@
 /*PAGE SETTINGS=======================================*/
 
 /*COMMON==============================================*/
+img {
+	width: 100%;
+	height: 100%;
+}
 img:hover {
   opacity: 0.5;
 }
