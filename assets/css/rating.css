@@ -1,5 +1,6 @@
 .rating {
 	height: 12px;
+  margin: 6px 0;
 }
 .rating__item {
   width: 12px;
