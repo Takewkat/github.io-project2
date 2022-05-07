@@ -180,6 +180,14 @@
     margin-right: 0;
   }
 }
+@media (max-width: 546px) {
+  .hebergem__card-image {
+    width: 300px;
+  }
+  .hebergem__card {
+    max-width: 306px;
+  }
+}
 @media (max-width: 480px) {
   .popular__card {
     width: 300px;
