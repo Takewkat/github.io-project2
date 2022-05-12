@@ -43,6 +43,9 @@
   border: 5px solid var(--whiteColor);
   box-shadow: 0px 0px 15px var(--shadowColor);
 }
+.hebergem__card:hover {
+  opacity: 0.8;
+}
 .hebergem__card-image{
   width: 240px;
   height: 119px;
@@ -89,6 +92,9 @@
   border: 5px solid var(--whiteColor);
   box-shadow: 0px 0px 15px var(--shadowColor);
   border-radius: 20px;
+}
+.popular__card:hover {
+  opacity: 0.8;
 }
 .popular__card-image {
   width: 132px;
