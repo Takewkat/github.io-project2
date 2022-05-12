@@ -1,17 +1,17 @@
 .rating {
-	height: 12px;
+	height: 14px;
   margin: 6px 0;
 }
 .rating__item {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
 }
 .rating__item__active {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
 }
 .rating__item__active:hover,
 .rating__item:hover {
-	height: 13px;
+	height: 14px;
   transition: color 0.3s ease 0s;
 }

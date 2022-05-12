@@ -30,10 +30,10 @@
 	--shadowColor: #a4a3a3;
 
 	--fontSize: 16px;
-	--fontSizeTitle: 21px;
-	--fontSizeSubTitle: 18px;
-	--fontSizeSmallTitle: 15px;
-	--fontSizeSmall: 14px;
+	--fontSizeTitle: 22px;
+	--fontSizeSubTitle: 19px;
+	--fontSizeSmallTitle: 16px;
+	--fontSizeSmall: 15px;
 }
 /*VARIABLES============================================*/
 
@@ -58,7 +58,7 @@
 }
 @media (max-width: 768px) {
 	._container {
-		margin: 0 20px;
+		margin: 0 10px;
 	}
 }
 .page {
@@ -110,5 +110,5 @@ textarea.input {
 	font-weight: 600;
 }
 ._svg {
-	height: 18px;
+	height: 20px;
 }

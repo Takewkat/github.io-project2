@@ -17,7 +17,6 @@
   font-size: var(--fontSizeSmallTitle);
   display: flex;
   flex-direction: column;
-  align-content: center;
   max-height: 492px;
   flex-wrap: wrap;
   column-gap: 42px;
@@ -87,17 +86,40 @@
   .activites__container {
     padding: 4px 0 45px 0;
   }
+  .activites__title {
+    margin: 26px 0;
+  }
   .activites__list {
-    max-height: 2000px;
+    max-height: 740px;
     gap: 20px;
+    width: 100%;
+    align-content: stretch;
+    justify-content: stretch;
   }
   .activites__list>* {
     flex: 1 1 100%;
+    width: 100%;
+  }
+  .activites__item {
+    width: 100%;
   }
   .activit__image__medium {
+    max-width: none;
     height: 190px;
   }
   .activit__image__small {
+    max-width: none;
     height: 190px;
+  }
+}
+@media (max-width: 654px) {
+  .activites__list {
+    max-height: none;
+  }
+  .activites__item {
+    max-width: none;
+  }
+  ._item__small {
+    max-height: none;
   }
 }
