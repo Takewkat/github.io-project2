@@ -48,7 +48,7 @@
   object-fit: cover;
 }
 .activit__image__small {
-  max-height: 170px;
+  max-height: 160px;
   max-width: 302px;
   height: 100%;
   width: 100%;
@@ -74,12 +74,17 @@
   }
   .activites__list {
     max-height: 940px;
+    align-content: center;
+    column-gap: 60px;
   }
   .activites__list>* {
     flex: 1 1 50%;
   }
   .activites__title {
     margin: 26px auto;
+  }
+  .activites__item {
+    max-width: 45%;
   }
 }
 @media (max-width: 768px) {

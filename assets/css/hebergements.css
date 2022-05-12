@@ -75,12 +75,9 @@
   justify-content: space-between;
   margin: 0 0 12px 0;
 }
-.popular__title-text {
-  width: 80%;
-}
 .popular__svg {
-  flex: 1;
   height: 21px;
+  width: 23px;
 }
 .popular__card {
   background-color: var(--whiteColor);
@@ -188,7 +185,7 @@
   }
   .hebergements__box {
     max-width: none;
-    padding: 36px 10px 10px 10px;
+    padding: 36px 20px 10px 20px;
     background-color: var(--whiteColor);
     align-items: center;
   }
@@ -205,6 +202,7 @@
   }
   .popular__box {
     justify-content: center;
+    padding: 42px 20px 34px 20px;  
   }
   .popular__card {
     width: 400px;
@@ -218,7 +216,6 @@
     flex-direction: column;
     max-width: 420px;
     max-height: 624px;
-    padding: 42px 10px 34px 10px;
     max-width: none;
     max-height: none;
   }

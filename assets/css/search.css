@@ -21,6 +21,7 @@
 .search__input-text {
   font-size: var(--fontSizeSmallTitle);
   font-weight: 600;
+  outline: none;
 }
 .search__button {
   background-color: var(--darkColor);
