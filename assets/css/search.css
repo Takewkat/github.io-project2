@@ -89,7 +89,7 @@
   border-radius: 50px;
 }
 .filtres__text {
-  margin: 12px;
+  margin: 12px 16px 12px 13px;
   font-size: var(--fontSizeSmallTitle);
 }
 /*------------------------------------*/
@@ -164,6 +164,6 @@
     width: 100%;
   }
   .search_title {
-    margin: 0 80px 12px 0;
+    margin: 0 30px 12px 0;
   }
 }

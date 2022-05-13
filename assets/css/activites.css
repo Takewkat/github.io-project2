@@ -30,7 +30,6 @@
   max-width: 302px;
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--greyColor);
   box-shadow: 0px 0px 15px var(--shadowColor);
   border-radius: 20px;
 }
